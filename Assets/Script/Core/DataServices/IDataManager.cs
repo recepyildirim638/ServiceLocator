@@ -7,5 +7,5 @@ public interface IDataManager
     void Initalize();
     PlayerData GetPlayerData();
     LevelData GetLevelData();
-    GameData GetGameData();
+    MainData GetMainData();
 }

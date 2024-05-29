@@ -7,8 +7,8 @@ public class GameDataService : IGameDataService
 
     public IDataManager GetGameDataManager()
     {
-        //if (dataManager == null)
-        //    dataManager = Object.FindObjectOfType<MyGameDataManager>();
+        if (dataManager == null)
+            dataManager = Object.FindObjectOfType<MyGameDataManager>();
 
         return dataManager;
     }
